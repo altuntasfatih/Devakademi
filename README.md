@@ -10,7 +10,7 @@ This is a workshop project in dev.akademi (sahibinden),
 - GET /predict?day=3  : Estimating  price of Scoin  for after 3 days 
 - GET /predict?days=5 : Estimating  price ofScoin  for the next 5 days
 
-POST /bot 
+- POST /bot 
 '{"num":"+905346639019", "sprice": "14550.0","bpirice":"-1"}'
           :With this request apı create a object(thread object)  from pricebot.py and seting attribute of object  from  post data,then start threads,İf prices of Scoin  intersect orders,sending sms users
 
