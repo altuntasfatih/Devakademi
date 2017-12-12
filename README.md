@@ -7,8 +7,8 @@ This is a workshop project in dev.akademi (sahibinden),
 * pricebot.py   : This is only  modified  state of bot.py to be able work  on restApı.py.
 * restApi.py    : This is basic restful web service.İt supports '/predict'  and '/bot'
 
-GET /predict?day=3  : Estimating  price of Scoin  for after 3 days 
-GET /predict?days=5 : Estimating  price ofScoin  for the next 5 days
+- GET /predict?day=3  : Estimating  price of Scoin  for after 3 days 
+- GET /predict?days=5 : Estimating  price ofScoin  for the next 5 days
 
 POST /bot 
 '{"num":"+905346639019", "sprice": "14550.0","bpirice":"-1"}'
